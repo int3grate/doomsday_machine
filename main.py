@@ -118,10 +118,13 @@ base_colors = {
     5: red
 }
 
+# adjust phase spacing for ripple (can be greater than one)
+phase_spacing = .6
+
 # Assign phase offset to each ring based on distance from center
 for i, ring in enumerate(light_rings):
     ring_index = len(light_rings) - 1 - i if reverse_pulse else i
-    ring['pulse_phase'] = ring_index * 0.6  # adjust phase spacing for ripple
+    ring['pulse_phase'] = ring_index * phase_spacing
 
 try:
     while True:
