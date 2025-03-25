@@ -1,4 +1,4 @@
-from neopixel import Neopixel, __version__ as neopixel_version
+from neopixel import Neopixel
 import utime 
 import random
 import math
@@ -72,7 +72,18 @@ light_rings = [
 }
 ]
 
-if neopixel_version == "simulator":
+is_simulator = None
+
+try:
+    import neopixel
+    if hasattr(neopixel, "__version__") and neopixel.__version__ == "simulator":
+        is_simulator = True
+    else:
+        is_simulator = False
+except ImportError:
+    is_simulator = False
+
+if is_simulator:
     strip = Neopixel(numpix, 0, 0, "GRB", light_rings)
 else:
     strip = Neopixel(numpix, 0, 0, "GRB")
