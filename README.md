@@ -1,4 +1,4 @@
-## DoomDay Machine NeoPixel Light Code
+## DoomsDay Machine NeoPixel Light Code
 
 This code is designed to run on Raspberry Pi Pico, in a MicroPython environment. 
 
