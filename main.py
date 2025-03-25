@@ -106,7 +106,7 @@ update_intervals = [500, 600, 700, 800]
 start_time = utime.ticks_ms()
 
 # Constants
-reverse_pulse = False
+reverse_pulse = True
 
 pulse_speed = .5 # lower = slower
 base_colors = {
