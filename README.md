@@ -24,7 +24,7 @@ button_toggle_pin = machine.Pin(2, machine.Pin.IN, machine.Pin.PULL_UP)
 
 ## Dependencies
 
-neopixel.py from https://github.com/blaz-r/pi_pico_neopixel.  This need to be coopied onto the Pi Pico, along with main.py, and machine.py.
+neopixel.py from https://github.com/blaz-r/pi_pico_neopixel.  This need to be copied onto the Pi Pico, along with main.py, and machine.py.
 
 If using the simulator on PC, you'll need to install pygame (https://www.pygame.org/).
 
