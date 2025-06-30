@@ -9,6 +9,14 @@ It's designed to use the following WS2812B light ring:
 
 ![image](https://github.com/user-attachments/assets/e80dc6ed-b468-4977-83d6-e0aab0d613a1)
 
+It supports two buttons. One for switching the effect, another for turning the display on/off. See main.py for details, if you need to switch the pins:
+
+```
+# button to switch effects
+button_pin = machine.Pin(1, machine.Pin.IN, machine.Pin.PULL_UP)
+# button to toggle lights on/off
+button_toggle_pin = machine.Pin(2, machine.Pin.IN, machine.Pin.PULL_UP)
+```
 
 ## Dependencies
 
