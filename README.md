@@ -7,7 +7,7 @@ https://www.thingiverse.com/thing:6989169
 <img width="515" alt="image" src="https://github.com/user-attachments/assets/01786ba0-4ee9-467e-8691-98aaf0b1a110" />
 
 The code is written so that when ran in a MicroPython environment, it will use the MicroPython libraries instead of the mock libraries. 
-If ran on a normal PC, mock libraries will be used that simulate the display.
+If ran on a normal PC, mock libraries will be used that simulate the display.  This is helpful for testing and visualizing effects before installing them on the Pi Pico.
 
 It's designed to use the following WS2812B light ring:
 
