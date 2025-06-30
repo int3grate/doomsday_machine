@@ -9,7 +9,9 @@ last_button_state = 1
 last_debounce_time = 0
 debounce_delay = 200  # ms
 
+# button to switch effects
 button_pin = machine.Pin(1, machine.Pin.IN, machine.Pin.PULL_UP)
+# button to toggle lights on/off
 button_toggle_pin = machine.Pin(2, machine.Pin.IN, machine.Pin.PULL_UP)
 
 lights_enabled = True
