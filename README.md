@@ -30,4 +30,7 @@ Unzip that file and switch into the directory you unzipped it to using "cd" on t
 python3 main.py
 ```
 
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/19ba2ddf-01c2-4acc-b7bf-2141ed12184f" />
+
+
 
