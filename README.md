@@ -5,7 +5,9 @@ This code is designed to run on Raspberry Pi Pico, in a MicroPython environment.
 The code is written so that when ran in a MicroPython environment, it will use the MicroPython libraries instead of the mock libraries. 
 If ran on a normal PC, mock libraries will be used that simulate the display.
 
-It requires MicroPython Neopixel library and math library.
+## Dependencies
+
+neopixel.py from https://github.com/blaz-r/pi_pico_neopixel.
 
 ### Simulator Instructions
 
