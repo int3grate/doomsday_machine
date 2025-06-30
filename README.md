@@ -11,9 +11,7 @@ It requires MicroPython Neopixel library and math library.
 
 In order to run the simulator, you need pygame installed. 
 
-You can run it with python on a PC with the included moc neopixel.py and utime.py moc libraries (all present in the same directory).  
-
-#### Mac Instructions
+You can run it with python on a PC with the included mock neopixel.py and utime.py mock libraries (all present in the same directory).  
 
 Installing pygame:
 
