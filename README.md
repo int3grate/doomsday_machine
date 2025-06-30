@@ -1,6 +1,10 @@
 ## DoomsDay Machine NeoPixel Light Code
 
-This code is designed to run on Raspberry Pi Pico, in a MicroPython environment. 
+This code is designed to run on Raspberry Pi Pico, in a MicroPython environment.  It was built for a model of the DoomsDay machine (from Star Trek original series TV show), which can be found here:
+
+https://www.thingiverse.com/thing:6989169
+
+<img width="515" alt="image" src="https://github.com/user-attachments/assets/01786ba0-4ee9-467e-8691-98aaf0b1a110" />
 
 The code is written so that when ran in a MicroPython environment, it will use the MicroPython libraries instead of the mock libraries. 
 If ran on a normal PC, mock libraries will be used that simulate the display.
